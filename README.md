@@ -3,10 +3,15 @@
 Collect data on politicians, companies, and researchers. Identify their impact on climate change. Use that data to direct consumers away from parties that have a high negative impact and toward parties that have a high positive impact.
 
 ##Competition
-See Potential 
+See Competition 
 
 ##Use Cases
 ###Use data collected to help a consumer easily find their local eco friendly grocery store as well as judge a politician based upon the 'eco-friendly' score
+
+##TO DO  
+1. Identify data sources, notate and rank importance 
+2. Mock up a UI  
+3. Find Sponsors
 
 #Company App/Website
 * We have in our database information on three grocery store companies:
@@ -16,19 +21,55 @@ See Potential
 * With this information we allow the community to search for the closest grocery stores that has a positive impact rating.
 * If none are found in the area, the user is provided a way to request or show interest in shopping at a grocery store like this. Data is collected and can be used to attract positive impact grocery stores in the users community.
 
-#Politician App/Website
+
+#The Politican Scorecard
+
+Initial Requirements for Minimum Viable Product:
+
+Objectives:
+
 We can create a grading profile for each politician similar to the NRA's gun friendly grading site: https://www.nrapvf.org/grades/. We should probably then display the grade with what factors determined that grade, similar to a skillset(Example: Renewable Energy[50], Recycling[20]). Politicians can also be certified through sponsors such as the Rainforest Alliance. Relationships should be displayed such as Company A donated 50,000 to Senator Doe. 
 
-####To gather information we should probably look at a number of different ways such as:  
-1. Scrape Politician's website  
-2. Track expenditures and donations  
-3. Scrape Wikipedia and other informational databases  
-4. Utilize voting records such as http://www.senate.gov/pagelayout/legislative/a_three_sections_with_teasers/votes.htm  
+##Present Climate Change opinion/status of the following:
 
-   
-##TO DO  
-1. Identify data sources, notate and rank importance 
-2. Mock up a UI  
-3. Find Sponsors  
+Big Political figures:
+
+* President/VP
+* US Congress
+* US Senate
+* US House
+* State Legislature
+
+
+## Types of INformation
+
+* Voting Record
+* Policies
+* Quotes
+* Campaign Donations
+
+
+*** Goals
+
+Present voters and users with evidence of politicians' opinion being bought. 
+ 
+* endorsements
+* donations
+
+
+## Methodology:
+
+1. Identify information sources:
+* Government sources  - voting record site, personal pages
+* Twitter (tweets can provide valuable information - not only from the politican himself, but the tweets that they receive)
+* Online Petitions (IF possible - gives perspective on issues of the candidates)
+
+2. Build web scrapers to acquire relevant/interesting information
+
+3. Compile this information into some schema
+
+4. Render said information in a web app
+
+
  
  
