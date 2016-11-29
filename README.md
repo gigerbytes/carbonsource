@@ -5,13 +5,11 @@ Collect data on politicians, companies, and researchers. Identify their impact o
 ##Competition
 See Competition 
 
-##Use Cases
-###Use data collected to help a consumer easily find their local eco friendly grocery store as well as judge a politician based upon the 'eco-friendly' score
 
-##TO DO  
-1. Identify data sources, notate and rank importance 
-2. Mock up a UI  
-3. Find Sponsors
+##Important Links  
+1. Trello Board: https://trello.com/b/iV377Jzq/carbon-source 
+2. Spec Sheet (RFC): https://docs.google.com/document/d/18kNvxdlU6cM6G76LYWRXyilrtB2Zra2A3IAHJPfpi-c/edit  
+
 
 #Company App/Website
 * We have in our database information on three grocery store companies:
@@ -49,27 +47,51 @@ Big Political figures:
 * Campaign Donations
 
 
-*** Goals
+##Key features:
+1.Website:
 
-Present voters and users with evidence of politicians' opinion being bought. 
+ 	 Robust, relational database for storing numerous entries on various topics.
+	 
+	 Simple but powerful user search function. 
+	 
+	 Visual content delivery.
+	 
+	 Text content delivery.
+	 
+	Comparing multiple politicians.
+	
+2. Scraper/ parser + database accessor:
+
+	 Easy functional way to quickly retrieve database items.
+	 
+	 Scraper that parses articles and documents, and outputs the format nicely to
+	 
+	 Manual input initially- develop automatic crawler
+	 
+	 Database accessor that stores sets of entries into the production database
+
  
-* endorsements
-* donations
+## General user stories:
+* As a user, so that I can quickly input my search request, I should be able to easily submit my search request to a visible field.
 
 
-## Methodology:
-
-1. Identify information sources:
-* Government sources  - voting record site, personal pages
-* Twitter (tweets can provide valuable information - not only from the politican himself, but the tweets that they receive)
-* Online Petitions (IF possible - gives perspective on issues of the candidates)
-
-2. Build web scrapers to acquire relevant/interesting information
-
-3. Compile this information into some schema
-
-4. Render said information in a web app
+* As a user, so that I can easily interpret the resulting data, I should be clearly presented with both visual and textual information relating to my query.
 
 
- 
- 
+* As an advanced user, so that I can find what I am looking for more easily, advanced search options should be available. 
+(Should we allow db queries?)
+
+
+* As a visually impaired user, so that I can also use the site, the site should be optimised for readers and colour blindness.
+
+
+* As a user that is searching for data, so that I can easily access large amounts of carbonsource data, there should be an advanced search option to allow for large data amounts.
+
+
+* As a maintainer, so that I can quickly submit large amounts of data to the scraper, the interface should be easy to use, and allow for quick submission of data.
+
+
+* As a maintainer, so that I do not have to format resulting data, the parser should output data in a suitable format for easy manipulation and storage.
+
+
+
