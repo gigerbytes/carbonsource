@@ -2,9 +2,6 @@
 #Politician, Company, and Researcher Impact Score Database
 Collect data on politicians, companies, and researchers. Identify their impact on climate change. Use that data to direct consumers away from parties that have a high negative impact and toward parties that have a high positive impact.
 
-##Competition
-See Competition 
-
 
 ##Important Links  
 1. Trello Board: https://trello.com/b/iV377Jzq/carbon-source 
