@@ -217,6 +217,7 @@ DEPENDENCIES
   pg
   puma (~> 3.0)
   rails (~> 5.0.0, >= 5.0.0.1)
+  rake
   rspec-rails (~> 3.5)
   sass-rails (~> 5.0)
   spring
