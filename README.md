@@ -17,6 +17,22 @@ Find out more about our organisation [here](http://climatepatch.org).
 1. [Trello Board](https://trello.com/b/iV377Jzq/carbon-source)
 2. [Spec Sheet (RFC)](https://docs.google.com/document/d/18kNvxdlU6cM6G76LYWRXyilrtB2Zra2A3IAHJPfpi-c/edit)
 
+##Important information:
+
+###Prerequisites to run:
+- RVM
+- Ruby v2.3.1
+- Bundler gem
+To run the current dev build of the website, clone this repo to your machine, and run the following in your command line, while in the project's root directory:
+`bundle install` to install dependencies
+
+Then in postgres, create a database named `carbonsource_development`.
+
+Run `rake db:migrate` To run migrations
+
+Finally run `bin/rails server` or simply `rails s` to start up the server.
+
+
 #The Politican Scorecard
 
 Initial Requirements for Minimum Viable Product:
