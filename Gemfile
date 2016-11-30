@@ -36,8 +36,6 @@ group :development, :test do
   # Capybara runs the headless browser for feature testing
   gem 'capybara'
   # Feature testing framework
-  gem 'cucumber-rails', :require => false
-
   gem 'database_cleaner'
   gem 'rspec-rails', '~> 3.5'
 end
