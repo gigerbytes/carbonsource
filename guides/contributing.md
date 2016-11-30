@@ -36,7 +36,7 @@ For this reason, we  require all code contributions to follow this pattern:
   - 4. Commit frequently, to create a log of the changes you implement.
   - 5. Once you deem the issue to be nearing completion, open a pull request to the development branch, and get ready for some more work!
   - 6. Read all of the comments people make, and implement any reasonable suggestions or improvements. Other people can definitely contribute code at this stage! In fact, collaboration at this stage increases productivity tremendously.
-  - 7. Once all of the commenters are happy, someone will merge the request into development. At this point, your code will undergo additional testing in the development branch, and other features will be merged in with it. Once we reach a certain point, a new release branch is created, which undergoes more rigorous end user and interface testing. Final patches are applied, and the code is shipped on to Master.
+  - 7. Once all of the commenters are happy, someone will merge the request into development. At this point, your code will undergo additional testing in the development branch, and other features will be merged in with it. Once we reach a certain point, a new release branch is created, which undergoes more rigorous end user and interface testing. Final patches are applied, and the code is shipped on to Master. 
 
 ###Testing:
 - https://robots.thoughtbot.com/how-we-test-rails-applications
