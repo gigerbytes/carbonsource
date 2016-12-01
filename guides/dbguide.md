@@ -21,17 +21,16 @@ The name should describe what type of data the table contains.
 
 We can have related tables have the same prefix, For example:
 
-Contact information of an entity and the country that they reside in are extremely related - so we can prefix it with 'info'
+Contact information of an entity, and the country that they reside in are extremely related. Furthermore, they represent information connected to a certain entity - so we can prefix it with *'info'*
 
-info_country
-info_contact
+* info_country
+* info_contact
 
 ### Primary keys
 
-Name : 'table_name' + '_id'
-Type : Integer
-
-table_name_id
+* Name : 'table_name' + '_id'
+* Type : Integer
+* Name of Row : *'table_name_id'*
 
 ## 2. Rows/Tuples
 
@@ -41,8 +40,9 @@ Name: 'table_name' + 'field_name'
 * Ideally, you should shorten the table_name (to something like tbl_name) for the field
 ** Do this only if you can make it descriptive, for example:
 
-table_name : organization
-field_name : org_name 
+* table_name : 'organization'
+* field_name : 'name'
+* Name of Row : 'table_name' + 'field_name' = *'org_name'*
 
 We shortened 'organization' to 'org', but its still descriptive
 
