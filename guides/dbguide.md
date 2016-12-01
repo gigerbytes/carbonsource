@@ -1,0 +1,48 @@
+#Editing the DB Schema
+
+Our main database is a relational DB (Particularly Postgresql)
+
+We are using a mysqlworkbench schema to visualize this - it's under /db
+
+This document outlines the naming conventions for the database
+
+
+## General Naming Guideline
+
+* Only use lower case leteers
+* Use underscores to separate words  i.e. : lower_case_table_name
+* The name should be descriptive
+
+## 1. Tables:
+
+The name should describe what type of data the table contains. 
+
+### Related tables
+
+We can have related tables have the same prefix, For example:
+
+Contact information of an entity and the country that they reside in are extremely related - so we can prefix it with 'info'
+
+info_country
+info_contact
+
+### Primary keys
+
+Name : 'table_name' + '_id'
+Type : Integer
+
+table_name_id
+
+## 2. Rows/Tuples
+
+Name: 'table_name' + 'field_name'
+
+* The field_name is just the descriptor of the data that the row will contain.
+* Ideally, you should shorten the table_name (to something like tbl_name) for the field
+** Do this only if you can make it descriptive, for example:
+
+table_name : organization
+field_name : org_name 
+
+We shortened 'organization' to 'org', but its still descriptive
+
