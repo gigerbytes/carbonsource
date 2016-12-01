@@ -37,14 +37,13 @@ Contact information of an entity, and the country that they reside in are extrem
 
 **Name Format: 'table_name' + 'field_name'**
 
-* The field_name is just the descriptor of the data that the row will contain.
-* Ideally, you should shorten the table_name (to something like tbl_name) for the field
-** Do this only if you can make it descriptive, for example:
+The field_name is just the descriptor of the data that the row will contain. You should ideally shorten the *table_name* (to something like tbl_name) for the field
+
+**However:** Only do this if you can make it descriptive, for example:
 
 
 * table_name : 'organization'
 * field_name : 'location'
-
 * Name of Row : 'table_name' + 'field_name' = *org_location*
 
 We shortened 'organization' to 'org', but its still descriptive
