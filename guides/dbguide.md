@@ -10,8 +10,8 @@ This document outlines the naming conventions for the database
 ## General Naming Guideline
 
 * Only use lower case leteers
-* Use underscores to separate words  i.e. : lower_case_table_name
-* The name should be descriptive
+* Use underscores to separate words  i.e. : *lower_case_table_name*
+* The name should be **descriptive**
 
 ## 1. Tables:
 
@@ -30,7 +30,7 @@ Contact information of an entity, and the country that they reside in are extrem
 
 * Name : 'table_name' + '_id'
 * Type : Integer
-* Name of Row : *'table_name_id'*
+* Name of Row : *table_name_id*
 
 ## 2. Rows/Tuples
 
@@ -40,9 +40,11 @@ Name: 'table_name' + 'field_name'
 * Ideally, you should shorten the table_name (to something like tbl_name) for the field
 ** Do this only if you can make it descriptive, for example:
 
+
 * table_name : 'organization'
-* field_name : 'name'
-* Name of Row : 'table_name' + 'field_name' = *'org_name'*
+* field_name : 'location'
+
+* Name of Row : 'table_name' + 'field_name' = *org_location*
 
 We shortened 'organization' to 'org', but its still descriptive
 
