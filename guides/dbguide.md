@@ -28,13 +28,14 @@ Contact information of an entity, and the country that they reside in are extrem
 
 ### Primary keys
 
-* Name : 'table_name' + '_id'
+**Name Format: 'table_name' + '_id'**
+
 * Type : Integer
 * Name of Row : *table_name_id*
 
 ## 2. Rows/Tuples
 
-Name: 'table_name' + 'field_name'
+**Name Format: 'table_name' + 'field_name'**
 
 * The field_name is just the descriptor of the data that the row will contain.
 * Ideally, you should shorten the table_name (to something like tbl_name) for the field
